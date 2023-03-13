@@ -4,18 +4,19 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
-  min-height: 100%;
   background-color: burlywood;
 }
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 100%;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  background-color: aliceblue;
 
   border: solid;
   padding: 30px;
@@ -31,4 +32,7 @@ ul {
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
+}
+li > a > img {
+  width: 70px;
 }
