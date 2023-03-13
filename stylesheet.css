@@ -17,14 +17,18 @@ section {
   display: flex;
   flex-direction: column;
   background-color: aliceblue;
-
+  box-shadow: 10px 10px;
   border: solid;
+  border-radius: 10px;
   padding: 30px;
   margin: 30px;
 }
 h1 {
   margin: 20px;
   text-align: center;
+  background-color: rgb(179, 129, 96);
+  border-radius: 15px;
+  padding: 10px;
 }
 
 ul {
@@ -35,4 +39,24 @@ ul {
 }
 li > a > img {
   width: 80px;
+}
+.frage {
+  text-align: center;
+  background-color: beige;
+}
+.questioncard {
+  background-color: beige;
+}
+.tags {
+  background-color: rgb(226, 221, 157);
+  border: solid 1px;
+  border-radius: 3px;
+}
+.showanswerbutton {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: solid;
+  width: fit-content;
+  align-self: center;
 }
