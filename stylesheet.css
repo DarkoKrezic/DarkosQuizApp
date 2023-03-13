@@ -70,3 +70,6 @@ li > a > img {
   margin-left: auto;
   margin-top: -46px;
 }
+.navi {
+  justify-content: space-around;
+}
