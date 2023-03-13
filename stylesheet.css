@@ -36,7 +36,6 @@ ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: space-around;
   background-color: transparent;
 }
 li > a > img {
@@ -55,6 +54,7 @@ li > a > img {
   border: solid 1px;
   border-radius: 5px;
   color: aliceblue;
+  margin-left: 10px;
 }
 .showanswerbutton {
   text-align: center;
