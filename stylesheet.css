@@ -4,7 +4,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: burlywood;
+  background-color: rgb(187, 219, 227);
 }
 body {
   display: flex;
@@ -17,7 +17,7 @@ section {
   display: flex;
   flex-direction: column;
   background-color: aliceblue;
-  box-shadow: 10px 10px;
+  box-shadow: 10px 10px 15px;
   border: solid;
   border-radius: 10px;
   padding: 30px;
@@ -26,9 +26,10 @@ section {
 h1 {
   margin: 20px;
   text-align: center;
-  background-color: rgb(179, 129, 96);
+  background-color: rgb(50, 193, 201);
   border-radius: 15px;
   padding: 10px;
+  box-shadow: 10px 10px 15px;
 }
 
 ul {
@@ -36,27 +37,36 @@ ul {
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
+  background-color: transparent;
 }
 li > a > img {
-  width: 70px;
+  width: 100px;
 }
 .frage {
   text-align: center;
   background-color: beige;
+  flex-wrap: wrap;
 }
 .questioncard {
   background-color: beige;
 }
 .tags {
-  background-color: rgb(226, 221, 157);
+  background-color: rgb(57, 141, 225);
   border: solid 1px;
-  border-radius: 3px;
+  border-radius: 5px;
+  color: aliceblue;
 }
 .showanswerbutton {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
   border: solid;
+  border-radius: 5px;
   width: fit-content;
   align-self: center;
+}
+.bookmark {
+  background-color: transparent;
+  margin-left: auto;
+  margin-top: -46px;
 }
