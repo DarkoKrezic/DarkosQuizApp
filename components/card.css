@@ -1,0 +1,75 @@
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  box-shadow: 10px 10px 15px;
+  border: solid;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: transparent;
+}
+li > a > img {
+  width: 100px;
+}
+.frage {
+  text-align: center;
+  background-color: beige;
+  flex-wrap: wrap;
+}
+.questioncard {
+  background-color: beige;
+}
+.tags {
+  background-color: rgb(57, 141, 225);
+  border: solid 1px;
+  border-radius: 5px;
+  color: aliceblue;
+  margin-left: 10px;
+  font-size: small;
+}
+.showanswerbutton {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: solid;
+  border-radius: 5px;
+  width: fit-content;
+  align-self: center;
+}
+.bookmark {
+  background-color: transparent;
+  margin-left: auto;
+  margin-top: -46px;
+}
+.namepic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Profilname {
+  background-color: transparent;
+  font-size: 35px;
+  align-self: center;
+}
+.about-me {
+  background-color: transparent;
+}
+.settings {
+  background-color: transparent;
+}
+.settingsbox {
+  display: flex;
+}
+.slider {
+}
+.round {
+}
+.switch {
+  background-color: transparent;
+}
