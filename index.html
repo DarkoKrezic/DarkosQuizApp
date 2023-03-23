@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
+    <script src="script.js" defer></script>
     <title>Darko's Quiz-App</title>
   </head>
   <header>
@@ -13,29 +14,22 @@
   <body>
     <main>
       <section class="questioncard">
-        <img
-          class="bookmark"
-          src="./pics/Bookmark_icon.svg.png"
-          alt="bookmark"
-          width="40px"
-        />
-        <span class="frage">how much is the fish?</span>
-        <span class="questioCard__showAnswerButtonbutton">Show Answer</span>
-        <ul>
-          <span class="tags">#html</span>
-          <span class="tags">#css</span>
-          <span class="tags">#flex</span>
-        </ul>
-      </section>
-      <section class="questioncard">
-        <img
-          class="bookmark"
-          src="./pics/Bookmark_icon.svg.png"
-          alt="bookmark"
-          width="40px"
-        />
-        <span class="frage">how old is the fish?</span>
-        <span class="questioCard__showAnswerButtonbutton">Show Answer</span>
+        <button class="questioncard__bookmark" data-js="bookmarkIcon">
+          <img
+            class="bookmarkimg"
+            src="./pics/Bookmark_icon.svg.png"
+            alt="bookmark"
+            width="40px"
+          />
+        </button>
+        <span class="frage" data-js="frage">how much is the fish?</span>
+        <button
+          class="questioCard__showAnswerButtonbutton"
+          data-js="showAnswerButton"
+        >
+          <span>Show Answer</span>
+        </button>
+        <span class="frage" data-js="antwort" hidden>42</span>
         <ul>
           <span class="tags">#html</span>
           <span class="tags">#css</span>
@@ -55,6 +49,11 @@
         <li>
           <a href="bookmarks.html">
             <img src="./pics/Bookmark_icon.svg.png" alt="Bookmarks"
+          /></a>
+        </li>
+        <li>
+          <a href="bookmarks.html">
+            <img src="./pics/Bookmark_icon.svg.png" alt="add your card"
           /></a>
         </li>
         <li>

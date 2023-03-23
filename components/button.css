@@ -1,0 +1,24 @@
+.questioncard__bookmark {
+  background-color: transparent;
+  margin-left: auto;
+  margin-top: -46px;
+  border: none;
+}
+.questioncard__bookmark--active {
+  background-color: transparent;
+  margin-left: auto;
+  margin-top: -46px;
+  filter: invert(100%);
+}
+.questioCard__showAnswerButtonbutton {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: solid;
+  border-radius: 5px;
+  /*width: fit-content;*/
+  align-self: center;
+}
+.bookmarkimg {
+  background-color: transparent;
+}

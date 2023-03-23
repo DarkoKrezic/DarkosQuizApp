@@ -22,8 +22,7 @@ li > a > img {
   background-color: var(--cardColor);
   flex-wrap: wrap;
 }
-.questioncard {
-}
+
 .tags {
   background-color: rgb(57, 141, 225);
   border: solid 1px;
@@ -32,20 +31,7 @@ li > a > img {
   margin-left: 10px;
   font-size: small;
 }
-.questioCard__showAnswerButtonbutton {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: solid;
-  border-radius: 5px;
-  width: fit-content;
-  align-self: center;
-}
-.bookmark {
-  background-color: transparent;
-  margin-left: auto;
-  margin-top: -46px;
-}
+
 .namepic {
   display: flex;
   flex-direction: row;
