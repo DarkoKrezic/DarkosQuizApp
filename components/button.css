@@ -1,35 +1,28 @@
 .questioncard__bookmark {
+  background-image: url();
   background-color: transparent;
   margin-left: auto;
   margin-top: -46px;
   border: none;
+  transition: 0.3s ease-in;
 }
 
 .questioncard__bookmark:hover {
-  background-color: transparent;
-  margin-left: auto;
-  margin-top: -46px;
   transform: scale(1.2);
-  transition: 0.3s ease-in;
-  border: none;
 }
-.questioncard__bookmark--active {
-  background-color: transparent;
-  margin-left: auto;
-  margin-top: -46px;
-  filter: invert(100%);
+.questioncard__bookmark--active path {
+  /*filter:invert();*/
 }
-.questioCard__showAnswerButtonbutton {
+.questionCard__showAnswerButton {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
   border: solid;
   border-radius: 5px;
-  /*width: fit-content;*/
   align-self: center;
   transition: 0.2s ease-in;
 }
-.questioCard__showAnswerButtonbutton:hover {
+.questionCard__showAnswerButton:hover {
   transform: scale(1.1);
 }
 
