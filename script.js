@@ -5,6 +5,14 @@ bookmarkIcon.addEventListener("click", () => {
 });
 const antwort = document.querySelector('[data-js="antwort"]');
 const showAnswerButton = document.querySelector('[data-js="showAnswerButton"]');
+const showAnswerText = document.querySelector(
+  '[data-js="showAnswerButtonText"]'
+);
 showAnswerButton.addEventListener("click", () => {
   antwort.toggleAttribute("hidden");
+  if (showAnswerText.textContent === "Show answer") {
+    showAnswerText.textContent = "Hide answer";
+  } else {
+    showAnswerText.textContent = "Show answer";
+  }
 });

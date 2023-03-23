@@ -15,5 +15,8 @@
   background-color: beige;
 }
 .form__button {
-  background-color: beige;
+  background-color: rgb(38, 80, 154);
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 5px 10px;
 }

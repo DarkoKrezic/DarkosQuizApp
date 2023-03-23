@@ -8,23 +8,25 @@
 
 .questioncard__bookmark:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 .questioncard__bookmark--active {
   filter: invert();
 }
 .questionCard__showAnswerButton {
   text-align: center;
+  padding: 5px 10px;
   margin-top: 15px;
   margin-bottom: 15px;
   border: solid;
   border-radius: 5px;
   align-self: center;
   transition: 0.2s ease-in;
+  cursor: pointer;
 }
 .questionCard__showAnswerButton:hover {
   transform: scale(1.1);
 }
-
 .bookmarkimg {
   background-color: transparent;
 }
