@@ -1,5 +1,4 @@
 .questioncard__bookmark {
-  background-image: url();
   background-color: transparent;
   margin-left: auto;
   margin-top: -46px;
@@ -10,8 +9,8 @@
 .questioncard__bookmark:hover {
   transform: scale(1.2);
 }
-.questioncard__bookmark--active path {
-  /*filter:invert();*/
+.questioncard__bookmark--active {
+  filter: invert();
 }
 .questionCard__showAnswerButton {
   text-align: center;
