@@ -13,31 +13,22 @@
   <body>
     <main>
       <section class="questioncard">
-        <img
-          class="questioncard__bookmark"
-          src="./pics/Bookmark_icon.svg.png"
-          alt="bookmark"
-          width="40px"
-          data-js="bookmarkIcon"
-        />
-        <span class="frage">lorem ipsum?</span>
-        <span class="questioCard__showAnswerButtonbutton">Show Answer</span>
-        <ul>
-          <span class="tags">#html</span>
-          <span class="tags">#css</span>
-          <span class="tags">#flex</span>
-        </ul>
-      </section>
-      <section class="questioncard">
-        <img
-          class="questioncard__bookmark"
-          src="./pics/Bookmark_icon.svg.png"
-          alt="bookmark"
-          width="40px"
-          data-js="bookmarkIcon"
-        />
-        <span class="frage">really?</span>
-        <span class="questioCard__showAnswerButtonbutton">Show Answer</span>
+        <button class="questioncard__bookmark" data-js="bookmarkIcon">
+          <img
+            class="bookmarkimg"
+            src="./pics/Bookmark_icon.svg.png"
+            alt="bookmark"
+            width="40px"
+          />
+        </button>
+        <span class="frage" data-js="frage">bookmarked question?</span>
+        <button
+          class="questioCard__showAnswerButtonbutton"
+          data-js="showAnswerButton"
+        >
+          <span>Show Answer</span>
+        </button>
+        <span class="frage" data-js="antwort" hidden>yepp</span>
         <ul>
           <span class="tags">#html</span>
           <span class="tags">#css</span>
@@ -55,8 +46,13 @@
           /></a>
         </li>
         <li>
-          <a href="">
+          <a href="bookmarks.html">
             <img src="./pics/Bookmark_icon.svg.png" alt="Bookmarks"
+          /></a>
+        </li>
+        <li>
+          <a href="form.html">
+            <img src="./pics/1000px-Plus_symbol.svg.png" alt="add your card"
           /></a>
         </li>
         <li>

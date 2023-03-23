@@ -4,6 +4,15 @@
   margin-top: -46px;
   border: none;
 }
+
+.questioncard__bookmark:hover {
+  background-color: transparent;
+  margin-left: auto;
+  margin-top: -46px;
+  transform: scale(1.2);
+  transition: 0.3s ease-in;
+  border: none;
+}
 .questioncard__bookmark--active {
   background-color: transparent;
   margin-left: auto;
@@ -18,7 +27,12 @@
   border-radius: 5px;
   /*width: fit-content;*/
   align-self: center;
+  transition: 0.2s ease-in;
 }
+.questioCard__showAnswerButtonbutton:hover {
+  transform: scale(1.1);
+}
+
 .bookmarkimg {
   background-color: transparent;
 }

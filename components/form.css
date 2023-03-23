@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  gap: 10px;
+}
+
+.form__textarea {
+  background-color: beige;
+}
+.form__label {
+  background-color: beige;
+}
+.form__taginput {
+  background-color: beige;
+}
+.form__button {
+  background-color: beige;
+}

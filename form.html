@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="script.js" defer></script>
+    <title>Darko's Quiz-App</title>
+  </head>
+  <header>
+    <h1>Create a Questioncard</h1>
+  </header>
+  <body>
+    <main>
+      <section class="questioncard">
+        <form class="form">
+          <label class="form__label" for="Your_question">Your Question:</label>
+          <textarea
+            class="form__textarea"
+            name="Your_question"
+            id=""
+            cols="30"
+            rows="5"
+            data-js="yourQuestion"
+            maxlength="150"
+            required
+          ></textarea>
+          <label class="form__label" for="Your_answer">Your answer:</label>
+          <textarea
+            class="form__textarea"
+            name="Your_answer"
+            id=""
+            cols="30"
+            rows="5"
+            data-js="yourAnswer"
+            maxlength="150"
+            required
+          ></textarea>
+          <label class="form__label" for="tag">Tag:</label>
+          <input
+            class="form__taginput"
+            type="text"
+            name="tag"
+            data-js="tag"
+            required
+          />
+          <button class="form__button">Submit question</button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <nav>
+      <ul class="navi">
+        <li>
+          <a href="index.html">
+            <img src="./pics/question-25.png" alt="Questions"
+          /></a>
+        </li>
+        <li>
+          <a href="bookmarks.html">
+            <img src="./pics/Bookmark_icon.svg.png" alt="Bookmarks"
+          /></a>
+        </li>
+        <li>
+          <a href="form.html">
+            <img src="./pics/1000px-Plus_symbol.svg.png" alt="add your card"
+          /></a>
+        </li>
+        <li>
+          <a href="profil.html">
+            <img src="./pics/Sample_User_Icon.png" alt="Profile"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</html>

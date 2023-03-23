@@ -6,5 +6,5 @@ bookmarkIcon.addEventListener("click", () => {
 const antwort = document.querySelector('[data-js="antwort"]');
 const showAnswerButton = document.querySelector('[data-js="showAnswerButton"]');
 showAnswerButton.addEventListener("click", () => {
-  antwort.removeAttribute("hidden");
+  antwort.toggleAttribute("hidden");
 });
