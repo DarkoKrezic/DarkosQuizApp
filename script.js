@@ -16,3 +16,11 @@ showAnswerButton.addEventListener("click", () => {
     showAnswerText.textContent = "Show answer";
   }
 });
+const form = document.querySelector('[data-js="form"]');
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const formElements = event.target.elements;
+
+  const formData = new FormData(event.target);
+  console.log(formData);
+});
